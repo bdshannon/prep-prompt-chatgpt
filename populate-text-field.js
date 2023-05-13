@@ -1,3 +1,8 @@
+/*
+Author: Brian Shannon
+License: GNU GPL-3.0-or-later
+*/
+
 
 textareaSelector = "textarea[placeholder=\"Send a message.\"]";
 let form = document.querySelector("form:has(" + textareaSelector + ")");

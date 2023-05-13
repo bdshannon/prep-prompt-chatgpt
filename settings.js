@@ -1,3 +1,8 @@
+/*
+Author: Brian Shannon
+License: GNU GPL-3.0-or-later
+*/
+
 var textField = document.getElementById("text-field");
 
 chrome.storage.sync.get(["prompt"]).then(function(data) {
