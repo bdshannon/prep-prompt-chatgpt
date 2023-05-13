@@ -1,0 +1,12 @@
+{
+  "name": "Prep Prompt ChatGPT",
+  "version": "1.0",
+  "description": "Automatically requests that ChatGPT responds in French.",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*"],
+      "js": ["populate-text-field.js"]
+    }
+  ]
+}
